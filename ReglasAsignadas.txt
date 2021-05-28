@@ -1,0 +1,12 @@
+Class_declaration ::= [Notes] Class_header [Converters]
+Converters ::= "convert" Converter_list
+Converter_list :: = [Converter ","]+
+Converter ::= Conversion_procedure | Conversion_query
+
+
+Class_header = "class_header"
+Conversion_procedure = "conversion_procedure"
+Conversion_query = "conversion_query"
+notes = "note"
+
+
